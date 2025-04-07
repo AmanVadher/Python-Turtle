@@ -15,9 +15,9 @@ t.setheading(225)
 t.penup()
 t.fd(300)
 t.setheading(0)
-num_of_dots = 100
+dots = 100
 
-for dot_count in range(1, num_of_dots+1):
+for dot_count in range(1, dots+1):
     t.dot(20, random_color())
     t.penup()
     t.fd(50)
